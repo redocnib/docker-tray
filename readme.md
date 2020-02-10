@@ -1,6 +1,6 @@
 # Docker-Tray
 
-Docker-Tray is a C++ application to monitor docker.service and allows to start and stop the service from system tray.
+Docker-Tray is a Linux (gtk) C++ application to monitor docker.service and allows to start and stop the service from system tray.
 
 ## Execution
 
