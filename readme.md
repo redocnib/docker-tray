@@ -16,6 +16,7 @@ g++ docker-service-tray.cc -o docker-tray `pkg-config --cflags --libs gtk+-3.0 a
 gtk+-3.0
 appindicator3-0.1
 lsystemd
+tray.h from https://github.com/zserge/tray
 ```
 The application utalizes sd_bus for hooking service states.
 
