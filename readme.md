@@ -19,8 +19,9 @@ g++ docker-service-tray.cc -o docker-tray `pkg-config --cflags --libs gtk+-3.0 a
 
 ## Dependencies
 ```
-gtk+-3.0
-appindicator3-0.1
+sudo apt install libsystemd-dev
+sudo apt-get install libgtk-3-dev
+sudo apt install libappindicator3-dev
 lsystemd
 tray.h from https://github.com/zserge/tray
 ```
