@@ -20,7 +20,18 @@ tray.h from https://github.com/zserge/tray
 ```
 The application utalizes sd_bus for hooking service states.
 
-
+## Autostart - run on startup
+For debian systems add the following text to ```nano ~/.config/autostart/docker-tray.desktop``` 
+replace <path to executable> with orginal path.
+```
+[Desktop Entry]
+Name=Docker Tray
+Comment=Test
+Exec=<path to executable>/docker-tray
+Type=Application
+Terminal=false
+Hidden=false
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
